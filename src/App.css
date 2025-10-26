@@ -1,0 +1,31 @@
+
+.container{
+  width: 100%;
+  max-width: 1320px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+div#root {
+    width: 100%;
+}
+.hero-sec {
+  position: relative;
+ min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+
+.hero-sec::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6); 
+  z-index: 1;
+}
+
+.hero-sec > * {
+  position: relative;
+  z-index: 2; 
+}
