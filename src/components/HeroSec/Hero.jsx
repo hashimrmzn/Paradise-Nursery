@@ -8,7 +8,7 @@ function Hero() {
             <section
                 className="hero-sec"
                 style={{
-                    backgroundImage: "url('/hero-bg.webp')",
+                  backgroundImage: `url(${import.meta.env.BASE_URL}hero-bg.webp)`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
