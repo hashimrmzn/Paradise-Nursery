@@ -42,7 +42,7 @@ function CartPage() {
               to="/products"
               sx={{ color: "green.700", textDecoration: "underline" }}
             >
-              Go shopping!
+              Go Shopping!
             </Button>
           </Typography>
         ) : (
